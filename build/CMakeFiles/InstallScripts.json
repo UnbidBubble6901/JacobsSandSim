@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/DEV/Jacopo/raylibProjects/raylib_test/build/cmake_install.cmake"
+		"C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

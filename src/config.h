@@ -2,7 +2,7 @@
 
 class Config{
     public:
-        static int width;
-        static int height;
+        const static int width;
+        const static int height;
         static int pixelSize;
 };

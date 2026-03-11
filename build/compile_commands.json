@@ -1,20 +1,20 @@
 [
 {
-  "directory": "C:/DEV/Jacopo/raylibProjects/raylib_test/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\raylib_game.dir\\src\\config.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\raylib_test\\src\\config.cpp",
-  "file": "C:/DEV/Jacopo/raylibProjects/raylib_test/src/config.cpp",
-  "output": "C:/DEV/Jacopo/raylibProjects/raylib_test/build/CMakeFiles/raylib_game.dir/src/config.cpp.obj"
+  "directory": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\jacob_sand_sim.dir\\src\\config.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\JacobsSandSim\\src\\config.cpp",
+  "file": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/src/config.cpp",
+  "output": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build/CMakeFiles/jacob_sand_sim.dir/src/config.cpp.obj"
 },
 {
-  "directory": "C:/DEV/Jacopo/raylibProjects/raylib_test/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\raylib_game.dir\\src\\main.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\raylib_test\\src\\main.cpp",
-  "file": "C:/DEV/Jacopo/raylibProjects/raylib_test/src/main.cpp",
-  "output": "C:/DEV/Jacopo/raylibProjects/raylib_test/build/CMakeFiles/raylib_game.dir/src/main.cpp.obj"
+  "directory": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\jacob_sand_sim.dir\\src\\main.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\JacobsSandSim\\src\\main.cpp",
+  "file": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/src/main.cpp",
+  "output": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build/CMakeFiles/jacob_sand_sim.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/DEV/Jacopo/raylibProjects/raylib_test/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\raylib_game.dir\\src\\square.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\raylib_test\\src\\square.cpp",
-  "file": "C:/DEV/Jacopo/raylibProjects/raylib_test/src/square.cpp",
-  "output": "C:/DEV/Jacopo/raylibProjects/raylib_test/build/CMakeFiles/raylib_game.dir/src/square.cpp.obj"
+  "directory": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\jacob_sand_sim.dir\\src\\square.cpp.obj -c C:\\DEV\\Jacopo\\raylibProjects\\JacobsSandSim\\src\\square.cpp",
+  "file": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/src/square.cpp",
+  "output": "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build/CMakeFiles/jacob_sand_sim.dir/src/square.cpp.obj"
 }
 ]

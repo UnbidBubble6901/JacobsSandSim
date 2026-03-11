@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/DEV/Jacopo/raylibProjects/raylib_test/build"
+			"value" : "c:/DEV/Jacopo/raylibProjects/JacobsSandSim/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/DEV/Jacopo/raylibProjects/raylib_test/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/DEV/Jacopo/raylibProjects/raylib_test"
+			"value" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/raylib_game"
+			"value" : "C:/Program Files (x86)/jacob_sand_sim"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -915,7 +915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "raylib_game"
+			"value" : "jacob_sand_sim"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -2058,6 +2058,42 @@
 			"value" : "1"
 		},
 		{
+			"name" : "jacob_sand_sim_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build"
+		},
+		{
+			"name" : "jacob_sand_sim_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "jacob_sand_sim_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim"
+		},
+		{
 			"name" : "pkgcfg_lib_PC_RAYLIB_raylib",
 			"properties" : 
 			[
@@ -2128,42 +2164,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/msys64/mingw64/lib/libraylib.dll.a"
-		},
-		{
-			"name" : "raylib_game_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/DEV/Jacopo/raylibProjects/raylib_test/build"
-		},
-		{
-			"name" : "raylib_game_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "raylib_game_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/DEV/Jacopo/raylibProjects/raylib_test"
 		}
 	],
 	"kind" : "cache",

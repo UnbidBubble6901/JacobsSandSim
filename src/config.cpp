@@ -1,5 +1,5 @@
 #include "config.h"
 
-int Config::height = 60;
-int Config::width = 100;
-int Config::pixelSize = 10;
+const int Config::height = 120;
+const int Config::width = 200;
+int Config::pixelSize = 5;

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "raylib_game.exe"
+			"path" : "jacob_sand_sim.exe"
 		},
 		{
-			"path" : "raylib_game.pdb"
+			"path" : "jacob_sand_sim.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -15,6 +15,7 @@
 		[
 			"_add_executable",
 			"add_executable",
+			"target_link_options",
 			"target_link_libraries",
 			"set_target_properties",
 			"_find_package",
@@ -35,7 +36,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 11,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -47,33 +48,39 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 13,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
-				"file" : 1,
-				"line" : 7,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
 				"file" : 0,
 				"line" : 908,
-				"parent" : 4
-			},
-			{
-				"file" : 2,
 				"parent" : 5
 			},
 			{
-				"command" : 3,
 				"file" : 2,
-				"line" : 63,
 				"parent" : 6
 			},
 			{
-				"command" : 6,
+				"command" : 4,
+				"file" : 2,
+				"line" : 63,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
 				"file" : 0,
 				"line" : 626,
 				"parent" : 1
@@ -88,7 +95,7 @@
 	"compileDependencies" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 4,
 			"id" : "raylib::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -101,7 +108,7 @@
 					"fragment" : "-g -std=gnu++17"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-IC:/msys64/mingw64/bin/../include"
 				}
 			],
@@ -122,7 +129,7 @@
 			]
 		}
 	],
-	"id" : "raylib_game::@6890427a1f51a3e7e1df",
+	"id" : "jacob_sand_sim::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -133,11 +140,26 @@
 			},
 			{
 				"backtrace" : 3,
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-static-libgcc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-static-libstdc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "C:\\msys64\\mingw64\\lib\\libraylib.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
+				"backtrace" : 8,
 				"fragment" : "-LC:/msys64/mingw64/bin/../lib -lraylib",
 				"role" : "libraries"
 			},
@@ -151,17 +173,17 @@
 	"linkLibraries" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 4,
 			"id" : "raylib::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "raylib_game",
-	"nameOnDisk" : "raylib_game.exe",
+	"name" : "jacob_sand_sim",
+	"nameOnDisk" : "jacob_sand_sim.exe",
 	"orderDependencies" : 
 	[
 		{
-			"backtrace" : 8,
-			"id" : "raylib_game::@6890427a1f51a3e7e1df"
+			"backtrace" : 9,
+			"id" : "jacob_sand_sim::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 

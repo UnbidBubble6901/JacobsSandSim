@@ -7,7 +7,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "raylib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-raylib-Debug-01ee5e93d4f102f021af.json",
+					"jsonFile" : "target-raylib-Debug-631a84329a0ca4fc4459.json",
 					"name" : "raylib",
 					"projectIndex" : 0
 				}
@@ -45,7 +45,7 @@
 					[
 						0
 					],
-					"name" : "raylib_game",
+					"name" : "jacob_sand_sim",
 					"targetIndexes" : 
 					[
 						0
@@ -56,9 +56,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "raylib_game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-raylib_game-Debug-e9aa3b803642012bed7a.json",
-					"name" : "raylib_game",
+					"id" : "jacob_sand_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jacob_sand_sim-Debug-6b41dcddb467dcaebc11.json",
+					"name" : "jacob_sand_sim",
 					"projectIndex" : 0
 				}
 			]
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/DEV/Jacopo/raylibProjects/raylib_test/build",
-		"source" : "C:/DEV/Jacopo/raylibProjects/raylib_test"
+		"build" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build",
+		"source" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim"
 	},
 	"version" : 
 	{

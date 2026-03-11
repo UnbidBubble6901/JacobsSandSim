@@ -261,8 +261,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/DEV/Jacopo/raylibProjects/raylib_test/build",
-		"source" : "C:/DEV/Jacopo/raylibProjects/raylib_test"
+		"build" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim/build",
+		"source" : "C:/DEV/Jacopo/raylibProjects/JacobsSandSim"
 	},
 	"version" : 
 	{
