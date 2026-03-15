@@ -2,7 +2,10 @@
 #include "config.h"
 #include <cstdlib>
 #include <ctime>
-#include <iostream>
+#include <random>
+
+std::mt19937 Square::gen(std::random_device{}());
+std::uniform_int_distribution<int> Square::random(0, 1); // 0 o 1
 
 Square::Square(int x, int y, int size, bool fill) {
     this->x = x;
@@ -13,17 +16,14 @@ Square::Square(int x, int y, int size, bool fill) {
     float randomSaturation = (float)GetRandomValue(40, 50) / 100.0f;
     float randomValue = (float)GetRandomValue(85, 100) / 100.0f;
     this->color = ColorFromHSV(randomHue, randomSaturation, randomValue);
-    srand(time(0));
+
+    
+    
 }
 
 void Square::update(std::vector<std::vector<bool>> &matrix) {
 
     
-    int random = rand() % 2;
-
-    bool rightFree = false;
-    bool leftFree = false;
-    bool centreFree = false;
 
     if(y + 1 < Config::height){
         if(!matrix[x][y + 1]){
@@ -31,23 +31,16 @@ void Square::update(std::vector<std::vector<bool>> &matrix) {
             matrix[x][y + 1] = true;
             y += 1;
         }
-        else if(x + 1 < Config::width && !matrix[x + 1][y + 1] && random == 1){
-            matrix[x][y] = false;
-            matrix[x + 1][y + 1] = true;
-            y += 1;
-            x += 1;
-        }
-        else if(x > 0 && !matrix[x - 1][y + 1]){
-            matrix[x][y] = false;
-            matrix[x - 1][y + 1] = true;
-            y += 1;
-            x -= 1;
-        }
-        else if(x + 1 < Config::width && !matrix[x + 1][y + 1]){
-            matrix[x][y] = false;
-            matrix[x + 1][y + 1] = true;
-            y += 1;
-            x += 1;
+        else{
+            int direction = random(gen) == 0 ? -1 : 1;
+            int nextX = x + direction;
+
+            if (nextX >= 0 && nextX < Config::width && !matrix[nextX][y + 1]) {
+                matrix[x][y] = false;
+                matrix[nextX][y + 1] = true;
+                x = nextX;
+                y += 1;
+            }
         }
     }
 }

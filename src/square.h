@@ -1,6 +1,7 @@
 #pragma once
 #include "raylib.h"
 #include <vector>
+#include <random>
 
 class Square {
     private:
@@ -12,6 +13,9 @@ class Square {
 
     public:
         Square(int x, int y, int size, bool fill);
+        
+        static std::mt19937 gen;
+        static std::uniform_int_distribution<int> random;
 
         void update(std::vector<std::vector<bool>> &matrix);
         void update(int x, int y);
