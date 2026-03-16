@@ -21,7 +21,7 @@ Square::Square(int x, int y, int size, bool fill) {
     
 }
 
-void Square::update(std::vector<std::vector<bool>> &matrix) {
+void Square::update(std::vector<std::vector<uint8_t>> &matrix) {
 
     
 
@@ -67,7 +67,7 @@ void Square::draw(int size){
     DrawRectangleLines(x * scale - (size * scale) / 2, y * scale - (size * scale) / 2, size * scale, size * scale, WHITE);
 }
 
-bool Square::exists(std::vector<std::vector<bool>> &matrix){
+bool Square::exists(std::vector<std::vector<uint8_t>> &matrix){
 
     if(matrix[x][y]){
         return true;

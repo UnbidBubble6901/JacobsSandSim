@@ -17,9 +17,9 @@ class Square {
         static std::mt19937 gen;
         static std::uniform_int_distribution<int> random;
 
-        void update(std::vector<std::vector<bool>> &matrix);
+        void update(std::vector<std::vector<uint8_t>> &matrix);
         void update(int x, int y);
         void draw();
         void draw(int size);
-        bool exists(std::vector<std::vector<bool>> &matrix);
+        bool exists(std::vector<std::vector<uint8_t>> &matrix);
 };

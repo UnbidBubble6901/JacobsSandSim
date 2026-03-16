@@ -16,11 +16,12 @@ int main() {
     const int rows = Config::height;
     const int cols = Config::width;
     //bool table[rows][cols] = {false}; --> deprecated
-    std::vector<std::vector<bool>> matrix(cols, std::vector<bool>(rows));
-    int cursor_size = 10;
+    std::vector<std::vector<uint8_t>> matrix(cols, std::vector<uint8_t>(rows));
+    int cursor_size = 50;
     int fps = 60;
-    int tps = 30;
-    int frame_counter = 1;
+    int tps = 60;
+    int frame_counter = 0;
+    int particles_counter = 0;
 
     
 
@@ -66,6 +67,7 @@ int main() {
                     if (x >= 0 && y >= 0 && x + i < cols && y + j < rows && !matrix[x + i][y + j]){
                         squares.emplace_back(x + i, y + j, 1, true);
                         matrix[x + i][y + j] = true;
+                        particles_counter++;
                     }
 
                 }
@@ -82,6 +84,7 @@ int main() {
                     int y = (m.y - ((int)m.y % scale)) / scale - cursor_size / 2;
                     if (x >= 0 && y >= 0 && x + i < cols && y + j < rows){
                         matrix[x + i][y + j] = false;
+                        
                     }
 
                 }
@@ -95,6 +98,7 @@ int main() {
             for (int i = 0; i < cols; i++){
                 for (int j = 0; j < rows; j++){
                     matrix[i][j] = false;
+                    particles_counter = 0;
                 }
             }
         }
@@ -108,12 +112,14 @@ int main() {
                 squares[i].draw();
             } else {
                 squares.erase(squares.begin() + i);
+                particles_counter--;
             }
         }
         
         box.draw(cursor_size);
 
-        DrawFPS(10 * scale, 5 * scale);
+        DrawFPS(5, 5);
+        DrawText(TextFormat("Elements: %i", particles_counter), 5, 25, 10, GREEN);
 
         EndDrawing();
 
